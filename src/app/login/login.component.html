@@ -1,4 +1,8 @@
-<p>
-  login works!
-</p>
-<button routerLink="register">REGISTER</button>
+
+
+<button (click)="login()">CLICK to LOGIN</button>
+<div *ngIf="myVar">
+<h2>LOGIN FORM</h2>
+NAME : <input type="text" placeholder="enter name" />
+PASSWORD : <input type="text" placeholder="enter password" />
+</div>
